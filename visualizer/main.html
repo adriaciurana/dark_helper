@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DARK HELPER</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script type="text/javascript" src="/eel.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <!--<script src="https://unpkg.com/vuex"></script>-->
+        <style type="text/css">
+        </style>
+    </head>
+    <body>
+        <div id="vapp" style="width: 640px; height: 100%; overflow: hidden;">
+            <div class="body">
+                <div class="inner-wrap">
+                  <div class="cat green">
+                    <span style="width:5em">Characters</span>
+                  </div>
+                  <div class="characters">
+                    <div @click="show_details($event, bio)" class="character" v-for="bio in bios" :style="{backgroundImage: 'url(\'' + bio.photo + '\')'}" style="background-size: cover; background-position: center top;"></div>
+                  </div>
+                  
+                  <div class="spacer cat green">
+                    <span style="width:5em">Biography</span>
+                  </div>
+                  <div class="more_info">
+                    <div v-if="details_name == null">
+                        <span>Select a character to visualize bio.</span>
+                    </div>
+                    <div v-else>
+                        <span><b>Name:</b> {{ details_name }}</span><br>
+                        <span><b>Description:</b><br>
+                          {{ details_description }}
+                        </span>
+                    </div>
+                  </div>
+
+                  <div class="spacer cat green">
+                    <span style="width:5em">Face detection</span>
+                  </div>
+                  <div class="more_info" style="padding: 0;">
+                    <img :src="image_detection" style="max-width: 100%; max-height: 400px;" />
+                  </div>
+
+                  <div class="spacer cat green">
+                    <span style="width:5em">Parameters</span>
+                  </div>
+                  <div class="more_info" style="overflow: hidden;">
+                    <span><b>Mode:</b></span>
+                    <div style="width: 100%">
+                        <input type="radio" id="crop" name="mode" value="0" v-model="mode">
+                        <label for="crop">Crop</label><br>
+                        <input type="radio" id="window" name="mode" value="1" v-model="mode">
+                        <label for="window">Window</label><br>
+                    </div>
+                    <br>
+
+                    <span><b>Available windows (for window mode):</b></span>
+                    <div style="width: 100%">
+                        <select v-model="current_window" style="width: 100%">
+                            <option :value="w" v-for="w in windows">{{ w }}</option>
+                        </select>
+                    </div>
+                    <br>
+
+                    <span><b>Coordinates (for crop mode in screen pixels):</b></span>
+                    <div style="float: right;">
+                        <span>left: <input type="text" placeholder="left" class="input_coords" v-model="coord_left"></span>
+                        <span>top: <input type="text" placeholder="top" class="input_coords" v-model="coord_top"></span>
+                        <span>width: <input type="text" placeholder="width" class="input_coords" v-model="coord_width"></span>
+                        <span>height: <input type="text" placeholder="height" class="input_coords" v-model="coord_height"></span>
+                    </div>
+                    <button class="btn" @click="change_coords">Save</button>
+                  </div>
+
+                  <div style="overflow: hidden; border-top: 2px #ccc solid; margin-top: 10px; padding-top: 10px;">
+                      <img src="img/logo_dream.png" style="float: right; width: 50px; height: 50px;">
+                  </div>
+              </div>
+            </div>
+        </div>
+
+        <style type="text/css">
+            .btn{
+              color: #fff;
+              font-weight: 700;
+              float: right; margin-top: 10px; background-color: #84d484; border: 0; padding: 10px; font-family: 'nimbus_light', sans-serif;
+            }
+            .input_coords{
+                width: 60px; border: 2px #ccc solid; border-radius: 5px; padding-left: 5px;
+            }
+            .body {
+              background-color: #fff;
+              margin: 1em;
+              max-width: 30em;
+              width: 100%;
+            }
+            .inner-wrap {
+              padding: 1em;
+              border: 1px solid #ddd;
+              background-repeat: no-repeat;
+              background-position: right 55px;
+              position: relative;
+            }
+
+            .cat {
+              font-family: 'nimbus_light', sans-serif;
+              padding: 0.8em;
+            }
+
+            .green{
+              color: #fff;
+              font-weight: 700;
+              background-color: #84d484;
+            }
+
+            .characters{
+              margin-top: 0;
+              height: 400px;
+              padding-left: 10px;
+              overflow-x: hidden;
+              overflow-y: scroll;
+              height: 200px;
+            }
+            .character{
+              cursor: pointer;
+              width: 85px;
+              height: 85px;
+              border-radius: 45px;
+              background-color: #000;
+              float: left;
+              margin-left: 10px;
+              margin-right: 10px;
+              margin-top: 10px;
+              margin-right: 10px;
+            }
+
+            .spacer{
+              margin-top: 1em;
+            }
+
+            .more_info{
+              padding: 10px;
+              font-family: 'nimbus_light', sans-serif;
+            }
+
+        </style>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+        <script type="text/javascript">
+            const vueApp = new Vue({
+                el: '#vapp',
+                name: "visualizer",
+                data: { 
+                    image_detection: null,
+                    bios: [],
+
+                    mode: 0,
+                    windows: [],
+                    current_window: null,
+
+                    coord_left: null,
+                    coord_top: null,
+                    coord_width: null,
+                    coord_height: null,
+
+                    details_name: null,
+                    details_description: null,
+                },
+
+                methods: {
+                    show_details(event, bio){
+                        this.details_name = bio.name;
+                        this.details_description = bio.description;
+                    },
+
+                    draw(data){
+                        let data_json = JSON.parse(data);
+                        this.image_detection = data_json.image_detection;
+                        this.bios = [];
+                        for(let i = 0; i < data_json.bios.length; i++){
+                            this.bios.push(data_json.bios[i]);
+                        }
+                    },
+
+                    change_coords(){
+                        let data = {
+                            'left': this.coord_left, 
+                            'top': this.coord_top, 
+                            'width': this.coord_width, 
+                            'height': this.coord_height,
+
+                            'mode': this.mode,
+                            'window': this.current_window
+                        }
+                        eel.set_settings(JSON.stringify(data))();
+                    }
+                },
+
+                mounted(){
+                    let self = this;
+                    eel.get_settings()().then((r) => {
+                        let d = JSON.parse(r);
+
+                        self.mode = d.mode;
+                        self.windows = d.windows;
+                        self.current_window = d.current_window;
+
+
+                        self.coord_left = d.left;
+                        self.coord_top = d.top;
+                        self.coord_width = d.width;
+                        self.coord_height = d.height;
+                    });
+                }
+            });
+
+            function draw(data){
+                vueApp.draw(data);
+            }
+
+            eel.expose(draw);
+
+        </script>
+
+    </body>
+</html>
+
+</html>

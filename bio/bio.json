@@ -1,0 +1,411 @@
+[
+
+	{
+		"name": "Agnes Nielsen [ADULT]",
+		"description": "Agnes Nielsen (born as Agnes Tauber) is the mother of Tronte, and later becomes the paramour of Doris Tiedemann. She is a time traveler, a secret follower of Claudia Tiedemann, a member of Sic Mundus, and the sister of Noah.",
+		"thumbnail": "agnes_nielsen/middle/1.png",
+		"photos": ["agnes_nielsen/middle/*"]
+	},
+	{
+		"name": "Agnes Nielsen [YOUNG]",
+		"description": "Agnes Nielsen (born as Agnes Tauber) is the mother of Tronte, and later becomes the paramour of Doris Tiedemann. She is a time traveler, a secret follower of Claudia Tiedemann, a member of Sic Mundus, and the sister of Noah.",
+		"thumbnail": "agnes_nielsen/young/1.png",
+		"photos": ["agnes_nielsen/young/*"]
+	},
+
+
+	{
+		"name": "Bartosz Tiedemann [YOUNG]",
+		"description": "Bartosz Tiedemann is the only child of Regina and Aleksander Tiedemann. He is a student at the Winden high school and Jonas Kahnwald's best friend.",
+		"thumbnail": "bartosz_tiedemann/young/1.png",
+		"photos": ["bartosz_tiedemann/young/*"]
+	},
+	{
+		"name": "Bartosz Tiedemann [ADULT]",
+		"description": "Bartosz Tiedemann is the only child of Regina and Aleksander Tiedemann. He is a student at the Winden high school and Jonas Kahnwald's best friend.",
+		"thumbnail": "bartosz_tiedemann/middle/1.jpg",
+		"photos": ["bartosz_tiedemann/middle/*"]
+	},
+
+
+	{
+		"name": "Bernd Doppler [YOUNG]",
+		"description": "Bernd Doppler was the father of Helge Doppler. He was the director of the nuclear plant until he was succeeded by Claudia Tiedemann in 1986.",
+		"thumbnail": "bernd_doppler/young/1.jpg",
+		"photos": ["bernd_doppler/young/*"]
+	},
+	{
+		"name": "Bernd Doppler [OLD]",
+		"description": "Bernd Doppler was the father of Helge Doppler. He was the director of the nuclear plant until he was succeeded by Claudia Tiedemann in 1986.",
+		"thumbnail": "bernd_doppler/old/1.jpg",
+		"photos": ["bernd_doppler/old/*"]
+	},
+
+
+	{
+		"name": "Aleksander Tiedemann [YOUNG]",
+		"description": "Aleksander Tiedemann (previously Aleksander Köhler, originally Boris Niewald) is the director of the Winden Nuclear Power Plant. He is married to Regina, with whom he has a son, Bartosz.",
+		"thumbnail": "boris_niewald/young/1.jpg",
+		"photos": ["boris_niewald/young/*"]
+	},
+	{
+		"name": "Aleksander Tiedemann [OLD]",
+		"description": "Aleksander Tiedemann (previously Aleksander Köhler, originally Boris Niewald) is the director of the Winden Nuclear Power Plant. He is married to Regina, with whom he has a son, Bartosz.",
+		"thumbnail": "boris_niewald/old/1.jpg",
+		"photos": ["boris_niewald/old/*"]
+	},
+
+
+	{
+		"name": "Claudia Tiedemann [YOUNG]",
+		"description": "Claudia Tiedemann was a time traveler and the main opponent of the secret society Sic Mundus in the war for control of time travel. She was born in the 1940s to police officer Egon Tiedemann and his wife Doris, and was the mother of Regina. She never married, but had affairs with Tronte Nielsen and Bernd Doppler. She grew into a headstrong career woman and in 1986, became the first female director of the Winden Nuclear Power Plant. There, she unveiled that the god particle had been discovered.",
+		"thumbnail": "claudia_tiedemann/young/1.png",
+		"photos": ["claudia_tiedemann/young/*"]
+	},
+	{
+		"name": "Claudia Tiedemann [ADULT]",
+		"description": "Claudia Tiedemann was a time traveler and the main opponent of the secret society Sic Mundus in the war for control of time travel. She was born in the 1940s to police officer Egon Tiedemann and his wife Doris, and was the mother of Regina. She never married, but had affairs with Tronte Nielsen and Bernd Doppler. She grew into a headstrong career woman and in 1986, became the first female director of the Winden Nuclear Power Plant. There, she unveiled that the god particle had been discovered.",
+		"thumbnail": "claudia_tiedemann/middle/1.png",
+		"photos": ["claudia_tiedemann/middle/*"]
+	},
+	{
+		"name": "Claudia Tiedemann [OLD]",
+		"description": "Claudia Tiedemann was a time traveler and the main opponent of the secret society Sic Mundus in the war for control of time travel. She was born in the 1940s to police officer Egon Tiedemann and his wife Doris, and was the mother of Regina. She never married, but had affairs with Tronte Nielsen and Bernd Doppler. She grew into a headstrong career woman and in 1986, became the first female director of the Winden Nuclear Power Plant. There, she unveiled that the god particle had been discovered.",
+		"thumbnail": "claudia_tiedemann/old/1.jpg",
+		"photos": ["claudia_tiedemann/old/*"]
+	},
+
+
+	{
+		"name": "Charlotte Doppler [YOUNG]",
+		"description": "Charlotte Doppler is chief of the Winden Police in 2019. She is married to Peter Doppler with whom she has two daughters, Franziska and Elisabeth.",
+		"thumbnail": "charlotte_doppler/young/1.jpg",
+		"photos": ["charlotte_doppler/young/*"]
+	},
+	{
+		"name": "Charlotte Doppler [ADULT]",
+		"description": "Charlotte Doppler is chief of the Winden Police in 2019. She is married to Peter Doppler with whom she has two daughters, Franziska and Elisabeth.",
+		"thumbnail": "charlotte_doppler/middle/1.jpg",
+		"photos": ["charlotte_doppler/middle/*"]
+	},
+
+
+	{
+		"name": "Daniel Kahnwald [ADULT]",
+		"description": "Daniel Kahnwald was the father of Ines Kahnwald. He was Winden's chief of police and Egon Tiedemann's superior in the 1950s.",
+		"thumbnail": "daniel_kahnwald/middle/1.jpg",
+		"photos": ["daniel_kahnwald/middle/*"]
+	},
+
+
+	{
+		"name": "Daniel Kahnwald [ADULT]",
+		"description": "Doris Tiedemann was the wife of Egon Tiedemann, and the mother of Claudia Tiedemann. In 1953, the Tiedemanns rented a room in their house to Agnes Nielsen and her son Tronte, who relocated to Winden for unspecified reasons, possibly due to Agnes' involvement with Sic Mundus. It is not mentioned how they originally came into contact, but Doris is shown to be having an affair with Agnes.",
+		"thumbnail": "doris_tiedemann/middle/1.png",
+		"photos": ["doris_tiedemann/middle/*"]
+	},
+
+
+	{
+		"name": "Egon Tiedemann [ADULT]",
+		"description": "Egon Tiedemann is the father of Claudia Tiedemann, husband to Doris Tiedemann, and a police officer in Winden.",
+		"thumbnail": "egon_tiedemann/middle/1.jpg",
+		"photos": ["egon_tiedemann/middle/*"]
+	},
+	{
+		"name": "Egon Tiedemann [OLD]",
+		"description": "Egon Tiedemann is the father of Claudia Tiedemann, husband to Doris Tiedemann, and a police officer in Winden.",
+		"thumbnail": "egon_tiedemann/old/1.jpg",
+		"photos": ["egon_tiedemann/old/*"]
+	},
+
+
+	{
+		"name": "Elisabeth Doppler [YOUNG]",
+		"description": "Elisabeth Doppler is the younger daughter (born 2011) of Charlotte and Peter Doppler. She is deaf, so she communicates using sign language. A confident and extroverted child, she enjoys stealing her older sister Franziska's red lipstick and chatting in sign language with her \"boyfriend\" Yasin Friese (also deaf).",
+		"thumbnail": "elisabeth_doppler/young/1.jpg",
+		"photos": ["elisabeth_doppler/young/*"]
+	},
+	{
+		"name": "Elisabeth Doppler [ADULT]",
+		"description": "Elisabeth Doppler is the younger daughter (born 2011) of Charlotte and Peter Doppler. She is deaf, so she communicates using sign language. A confident and extroverted child, she enjoys stealing her older sister Franziska's red lipstick and chatting in sign language with her \"boyfriend\" Yasin Friese (also deaf).",
+		"thumbnail": "elisabeth_doppler/middle/1.jpg",
+		"photos": ["elisabeth_doppler/middle/*"]
+	},
+
+
+	{
+		"name": "Franziska Doppler [YOUNG]",
+		"description": "Franziska Doppler is the daughter of Peter Doppler and Charlotte Doppler and an older sister to Elisabeth. A teenager in 2019, she is a rhythmic gymnast, has perfect grades, and is considered a nerd by her fellow classmates including Jonas and Bartosz, making it all the more surprising when she starts dating the stoner Magnus Nielsen.",
+		"thumbnail": "franziska_doppler/young/1.jpg",
+		"photos": ["franziska_doppler/young/*"]
+	},
+	{
+		"name": "Franziska Doppler [OLD]",
+		"description": "Franziska Doppler is the daughter of Peter Doppler and Charlotte Doppler and an older sister to Elisabeth. A teenager in 2019, she is a rhythmic gymnast, has perfect grades, and is considered a nerd by her fellow classmates including Jonas and Bartosz, making it all the more surprising when she starts dating the stoner Magnus Nielsen.",
+		"thumbnail": "franziska_doppler/old/1.jpg",
+		"photos": ["franziska_doppler/old/*"]
+	},
+
+
+	{
+		"name": "Greta Doppler [ADULT]",
+		"description": "Greta Doppler is the mother of Helge Doppler and the wife of Bernd Doppler. Greta is a stern mother to Helge; when he arrives home muddy one day in 1953, she forces him to disrobe in the entrance hall of the grand Doppler residence. After Helge goes missing, she implies to Noah that Bernd is not Helge's father, but rather Helge is the product of rape.",
+		"thumbnail": "greta_doppler/middle/1.jpg",
+		"photos": ["greta_doppler/middle/*"]
+	},
+
+
+	{
+		"name": "Hannah Kahnwald [YOUNG]",
+		"description": "Hannah Kahnwald (née Krüger) is the widow of Michael and mother of Jonas. She is a clever woman, driven by pain and vengeance and doesn't shy away from conspiracies. She's been dealt a tough hand: Her husband commits suicide and their son Jonas gets sent to a psychiatric inpatient facility shortly after.",
+		"thumbnail": "hannah_kahnwald/young/1.jpg",
+		"photos": ["hannah_kahnwald/young/*"]
+	},
+	{
+		"name": "Hannah Kahnwald [ADULT]",
+		"description": "Hannah Kahnwald (née Krüger) is the widow of Michael and mother of Jonas. She is a clever woman, driven by pain and vengeance and doesn't shy away from conspiracies. She's been dealt a tough hand: Her husband commits suicide and their son Jonas gets sent to a psychiatric inpatient facility shortly after.",
+		"thumbnail": "hannah_kahnwald/middle/1.jpg",
+		"photos": ["hannah_kahnwald/middle/*"]
+	},
+
+
+
+	{
+		"name": "Helge Doppler [YOUNG]",
+		"description": "Helge Doppler was the son of Bernd and Greta Doppler, and the father of Peter Doppler. He worked as a cleaner at the Winden Nuclear Power Plant and a henchman to Noah.",
+		"thumbnail": "helge_doppler/young/1.png",
+		"photos": ["helge_doppler/young/*"]
+	},
+	{
+		"name": "Helge Doppler [ADULT]",
+		"description": "Helge Doppler was the son of Bernd and Greta Doppler, and the father of Peter Doppler. He worked as a cleaner at the Winden Nuclear Power Plant and a henchman to Noah.",
+		"thumbnail": "helge_doppler/middle/1.jpg",
+		"photos": ["helge_doppler/middle/*"]
+	},
+	{
+		"name": "Helge Doppler [OLD]",
+		"description": "Helge Doppler was the son of Bernd and Greta Doppler, and the father of Peter Doppler. He worked as a cleaner at the Winden Nuclear Power Plant and a henchman to Noah.",
+		"thumbnail": "helge_doppler/old/1.png",
+		"photos": ["helge_doppler/old/*"]
+	},
+
+
+
+	{
+		"name": "Ines Kahnwald [YOUNG]",
+		"description": "Ines Kahnwald was the adoptive mother of Michael and the adoptive grandmother of Jonas. She is a retired nurse at the Winden Hospital.",
+		"thumbnail": "ines_kahnwald/young/1.jpg",
+		"photos": ["ines_kahnwald/young/*"]
+	},
+	{
+		"name": "Ines Kahnwald [ADULT]",
+		"description": "Ines Kahnwald was the adoptive mother of Michael and the adoptive grandmother of Jonas. She is a retired nurse at the Winden Hospital.",
+		"thumbnail": "ines_kahnwald/middle/1.jpg",
+		"photos": ["ines_kahnwald/middle/*"]
+	},
+	{
+		"name": "Ines Kahnwald [OLD]",
+		"description": "Ines Kahnwald was the adoptive mother of Michael and the adoptive grandmother of Jonas. She is a retired nurse at the Winden Hospital.",
+		"thumbnail": "ines_kahnwald/old/1.jpg",
+		"photos": ["ines_kahnwald/old/*"]
+	},
+
+
+
+	{
+		"name": "Jana Nielsen [YOUNG]",
+		"description": "Jana Nielsen is the mother of Ulrich Nielsen and Mads Nielsen. She is portrayed by Tatja Seibt.",
+		"thumbnail": "jana_nielsen/young/1.png",
+		"photos": ["jana_nielsen/young/*"]
+	},
+	{
+		"name": "Jana Nielsen [ADULT]",
+		"description": "Jana Nielsen is the mother of Ulrich Nielsen and Mads Nielsen. She is portrayed by Tatja Seibt.",
+		"thumbnail": "jana_nielsen/middle/1.png",
+		"photos": ["jana_nielsen/middle/*"]
+	},
+	{
+		"name": "Jana Nielsen [OLD]",
+		"description": "Jana Nielsen is the mother of Ulrich Nielsen and Mads Nielsen. She is portrayed by Tatja Seibt.",
+		"thumbnail": "jana_nielsen/old/1.png",
+		"photos": ["jana_nielsen/old/*"]
+	},
+
+
+	{
+		"name": "Jonas Kahnwald [YOUNG]",
+		"description": "Jonas Kahnwald is the central character in the series. He is the son of Michael and Hannah Kahnwald. As a teenager, he is a thoughtful person whose father's suicide hits him hard, even worse after finding out his true identity.",
+		"thumbnail": "jonas_kahnwald/young/1.jpg",
+		"photos": ["jonas_kahnwald/young/*"]
+	},
+	{
+		"name": "Jonas Kahnwald [ADULT]",
+		"description": "Jonas Kahnwald is the central character in the series. He is the son of Michael and Hannah Kahnwald. As a teenager, he is a thoughtful person whose father's suicide hits him hard, even worse after finding out his true identity.",
+		"thumbnail": "jonas_kahnwald/middle/1.jpg",
+		"photos": ["jonas_kahnwald/middle/*"]
+	},
+	{
+		"name": "Adam",
+		"description": "Adam is the central character in the series. He is the son of Michael and Hannah Kahnwald. As a teenager, he is a thoughtful person whose father's suicide hits him hard, even worse after finding out his true identity.",
+		"thumbnail": "jonas_kahnwald/adam/1.jpg",
+		"photos": ["jonas_kahnwald/adam/*"]
+	},
+
+
+
+	{
+		"name": "Katharina Nielsen [YOUNG]",
+		"description": "Katharina Nielsen (née Albers) is the principal of the local school in Winden. She is married to Ulrich Nielsen, with whom she has the three children Magnus, Martha and Mikkel.",
+		"thumbnail": "katharina_nielsen/young/1.jpg",
+		"photos": ["katharina_nielsen/young/*"]
+	},
+	{
+		"name": "Katharina Nielsen [ADULT]",
+		"description": "Katharina Nielsen (née Albers) is the principal of the local school in Winden. She is married to Ulrich Nielsen, with whom she has the three children Magnus, Martha and Mikkel.",
+		"thumbnail": "katharina_nielsen/middle/1.jpg",
+		"photos": ["katharina_nielsen/middle/*"]
+	},
+
+
+	{
+		"name": "Mads Nielsen [YOUNG]",
+		"description": "Mads Nielsen was the son of Jana and Tronte Nielsen and brother of Ulrich. He went missing in 1986. He is described as a kind person by Regina Tiedemann. His mother notes that he loved Raider bars and used to take fencing lessons.",
+		"thumbnail": "mads_nielsen/young/1.jpg",
+		"photos": ["mads_nielsen/young/*"]
+	},
+
+
+	{
+		"name": "Magnus Nielsen [YOUNG]",
+		"description": "Magnus Nielsen is the eldest son of Katharina and Ulrich Nielsen, and the brother of Martha and Mikkel.",
+		"thumbnail": "magnus_nielsen/young/1.png",
+		"photos": ["magnus_nielsen/young/*"]
+	},
+	{
+		"name": "Magnus Nielsen [OLD]",
+		"description": "Magnus Nielsen is the eldest son of Katharina and Ulrich Nielsen, and the brother of Martha and Mikkel.",
+		"thumbnail": "magnus_nielsen/old/1.jpg",
+		"photos": ["magnus_nielsen/old/*"]
+	},
+
+
+	{
+		"name": "Martha Nielsen [YOUNG]",
+		"description": "Martha Nielsen is the daughter of Ulrich and Katharina Nielsen, and the sister of Magnus and Mikkel Nielsen. She attends the Winden high school.",
+		"thumbnail": "martha_nielsen/young/1.jpg",
+		"photos": ["martha_nielsen/young/*"]
+	},
+
+
+	{
+		"name": "Mikkel Nielsen [YOUNG]",
+		"description": "Michael Kahnwald (born as Mikkel Nielsen) was the youngest son of Ulrich and Katharina Nielsen, and brother of Martha and Magnus. He traveled back in time to 1986 at the age of 11, was adopted by Ines Kahnwald and later married Hannah Krüger, with whom he fathered Jonas. He committed suicide and started Jonas' journey.",
+		"thumbnail": "mikkel_nielsen/young/1.jpg",
+		"photos": ["mikkel_nielsen/young/*"]
+	},
+	{
+		"name": "Michael Kahnwald [ADULT]",
+		"description": "Michael Kahnwald (born as Mikkel Nielsen) was the youngest son of Ulrich and Katharina Nielsen, and brother of Martha and Magnus. He traveled back in time to 1986 at the age of 11, was adopted by Ines Kahnwald and later married Hannah Krüger, with whom he fathered Jonas. He committed suicide and started Jonas' journey.",
+		"thumbnail": "mikkel_nielsen/middle/1.jpg",
+		"photos": ["mikkel_nielsen/middle/*"]
+	},
+
+
+	{
+		"name": "Noah [YOUNG]",
+		"description": "Noah, (b. Hanno Tauber, 1904) was a dedicated follower of Sic Mundus. On Adam's instructions, he posed as a pastor in Winden and kidnapped young boys for time travel experiments.",
+		"thumbnail": "noah/young/1.jpg",
+		"photos": ["noah/young/*"]
+	},
+	{
+		"name": "Noah [ADULT]",
+		"description": "Noah, (b. Hanno Tauber, 1904) was a dedicated follower of Sic Mundus. On Adam's instructions, he posed as a pastor in Winden and kidnapped young boys for time travel experiments.",
+		"thumbnail": "noah/middle/2.jpg",
+		"photos": ["noah/middle/*"]
+	},
+
+
+	{
+		"name": "Michael Kahnwald [ADULT]",
+		"description": "In Adam's world, Peter Doppler is a therapist in Winden, and counseling Jonas Kahnwald after his father Michael Kahnwald's suicide. In Eve's world, he is a priest. In both Adam and Eve's world, he is married to Charlotte, with whom he has two children: Franziska and Elisabeth. In the original world, he is implied to be in a long-term relationship with Bernadette.",
+		"thumbnail": "peter_doppler/middle/1.jpg",
+		"photos": ["peter_doppler/middle/*"]
+	},
+
+
+	{
+		"name": "Regina Tiedemann [YOUNG]",
+		"description": "Regina Tiedemann is the daughter of Claudia Tiedemann and Bernd Doppler and the owner of the troubled Waldhotel Winden in the town of Winden. She is married to Aleksander Tiedemann, with whom she has a son, Bartosz Tiedemann. She is currently suffering from cancer.",
+		"thumbnail": "regina_tiedemann/young/1.png",
+		"photos": ["regina_tiedemann/young/*"]
+	},
+	{
+		"name": "Regina Tiedemann [OLD]",
+		"description": "Regina Tiedemann is the daughter of Claudia Tiedemann and Bernd Doppler and the owner of the troubled Waldhotel Winden in the town of Winden. She is married to Aleksander Tiedemann, with whom she has a son, Bartosz Tiedemann. She is currently suffering from cancer.",
+		"thumbnail": "regina_tiedemann/old/1.jpg",
+		"photos": ["regina_tiedemann/old/*"]
+	},
+
+
+	{
+		"name": "Sebastian Krüger [ADULT]",
+		"description": "Sebastian Krüger is Hannah Kahnwald's father. In 1986 he is proprietor of a linen service (textilreinigung), and is commonly seen driving around town in his green van making pickups and deliveries with Hannah",
+		"thumbnail": "sebastian_kruger/middle/1.png",
+		"photos": ["sebastian_kruger/middle/*"]
+	},
+
+
+	{
+		"name": "H.G. Tannhaus [ADULT]",
+		"description": "H.G. Tannhaus is a clockmaker who operates a shop in Winden, and the adoptive grandfather of Charlotte Doppler (real grandfather of Charlotte Tannhaus). He is the author of A Journey Through Time, a book which discusses black holes, spacetime, and similar subjects, and has appeared in educational videos teaching about the same.",
+		"thumbnail": "tannhaus/middle/1.png",
+		"photos": ["tannhaus/middle/*"]
+	},
+	{
+		"name": "H.G. Tannhaus [OLD]",
+		"description": "H.G. Tannhaus is a clockmaker who operates a shop in Winden, and the adoptive grandfather of Charlotte Doppler (real grandfather of Charlotte Tannhaus). He is the author of A Journey Through Time, a book which discusses black holes, spacetime, and similar subjects, and has appeared in educational videos teaching about the same.",
+		"thumbnail": "tannhaus/old/1.jpg",
+		"photos": ["tannhaus/old/*"]
+	},
+
+
+	{
+		"name": "Tronte Nielsen [YOUNG]",
+		"description": "Tronte Nielsen is the father of Ulrich and Mads Nielsen, and one of the few characters who appears at his natural age in all three eras.",
+		"thumbnail": "tronte_nielsen/young/1.jpg",
+		"photos": ["tronte_nielsen/young/*"]
+	},
+	{
+		"name": "Tronte Nielsen [ADULT]",
+		"description": "Tronte Nielsen is the father of Ulrich and Mads Nielsen, and one of the few characters who appears at his natural age in all three eras.",
+		"thumbnail": "tronte_nielsen/middle/1.jpg",
+		"photos": ["tronte_nielsen/middle/*"]
+	},
+	{
+		"name": "Tronte Nielsen [OLD]",
+		"description": "Tronte Nielsen is the father of Ulrich and Mads Nielsen, and one of the few characters who appears at his natural age in all three eras.",
+		"thumbnail": "tronte_nielsen/old/1.jpg",
+		"photos": ["tronte_nielsen/old/*"]
+	},
+
+
+	{
+		"name": "Ulrich Nielsen [YOUNG]",
+		"description": "Ulrich Nielsen is a headstrong police officer. He is married to Katharina Nielsen, but has an affair with Hannah Kahnwald. Following the disappearance of one of his children, Mikkel Nielsen, he fiercely attempts to find him, becoming entangled in Winden's mysteries.",
+		"thumbnail": "ulrich_nielsen/young/1.jpg",
+		"photos": ["ulrich_nielsen/young/*"]
+	},
+	{
+		"name": "Ulrich Nielsen [ADULT]",
+		"description": "Ulrich Nielsen is a headstrong police officer. He is married to Katharina Nielsen, but has an affair with Hannah Kahnwald. Following the disappearance of one of his children, Mikkel Nielsen, he fiercely attempts to find him, becoming entangled in Winden's mysteries.",
+		"thumbnail": "ulrich_nielsen/middle/1.jpg",
+		"photos": ["ulrich_nielsen/middle/*"]
+	},
+	{
+		"name": "Ulrich Nielsen [OLD]",
+		"description": "Ulrich Nielsen is a headstrong police officer. He is married to Katharina Nielsen, but has an affair with Hannah Kahnwald. Following the disappearance of one of his children, Mikkel Nielsen, he fiercely attempts to find him, becoming entangled in Winden's mysteries.",
+		"thumbnail": "ulrich_nielsen/old/1.png",
+		"photos": ["ulrich_nielsen/old/*"]
+	}
+]
