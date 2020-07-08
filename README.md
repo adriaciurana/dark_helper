@@ -36,3 +36,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
+# CREDITS
+
+* Face detection & recognition: https://github.com/timesler/facenet-pytorch/
+* Tracker: https://github.com/abewley/sort
