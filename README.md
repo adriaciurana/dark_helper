@@ -6,14 +6,14 @@ Today we are going to create a new one! Remember you are watching **Dark** and c
 
 We want times of peace, we want to see dark without having the anxiety of not understanding anything.
 
-![](/media/Datos/git/dark_helper/doc/cover.png)
+![](./doc/cover.png)
 
 
 
 **Dark helper** allows you to capture a piece of the screen or the full screen and it will tell you who appears in each scene. Isn't it fucking gorgeous?
 
 ```
-[![Dark Helper](https://yt-embed.herokuapp.com/embed?v=YvRi2yq_89Y)](https://www.youtube.com/watch?v=YvRi2yq_89Y "Dark Helper")
+[<img src="https://img.youtube.com/vi/YvRi2yq_89Y/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=YvRi2yq_89Y)
 ```
 
 
