@@ -12,9 +12,8 @@ We want times of peace, we want to see dark without having the anxiety of not un
 
 **Dark helper** allows you to capture a piece of the screen or the full screen and it will tell you who appears in each scene. Isn't it fucking gorgeous?
 
-```
-[<img src="https://img.youtube.com/vi/YvRi2yq_89Y/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=YvRi2yq_89Y)
-```
+
+[<img src="./doc/dark_helper.png" width="100%">](https://www.youtube.com/watch?v=YvRi2yq_89Y)
 
 
 
