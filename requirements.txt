@@ -3,7 +3,7 @@ torchvision
 filterpy==1.4.5
 dlib==19.20.0
 mss==6.0.0
-numpy==1.18.5
+numpy==1.22.0
 requests==2.24.0
 Eel==0.13.2
 opencv_python
